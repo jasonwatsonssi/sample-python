@@ -8,8 +8,8 @@ trigger:
 
 strategy:
   matrix:
-    Python36:
-      python.version: '3.6.8'
+    Python3:
+      python.version: '3'
 
 steps:
 - task: UsePythonVersion@0
